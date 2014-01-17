@@ -1,0 +1,61 @@
+/*
+Theme Name: paper Business
+Theme URI: http://blog.themeforest.net
+Description: Wordpress site for beginners
+Version: 3.0
+Author: Ali Arshad
+Author URI: http://elliotjaystocks.com
+Tags: Paper business
+*/
+
+@import "css/reset.css";
+@import "css/typography.css";
+@import "css/layout.css";
+
+/******General Styles******/
+body{
+	background:transparent url('images/background.jpg') repeat scroll;
+	color:#fff;
+	font-family: Arial, sans-serif;
+}
+#wrap{
+	width:800px;
+	margin:0 auto;
+}
+a{
+	text-decoration: none;
+}
+/******Header Styles******/
+#header{
+	margin: 40px 0px 20px 0px;
+}
+h1#logo{
+	letter-spacing: 1px;
+	float: left;
+	margin: 0px 80px 0px 0px;
+	font-size: 35px;
+	text-transform: lowercase;
+	font-weight: normal;
+}
+h1#logo span{
+	font-weight: bold;
+}
+h1#logo a{
+	color: #fff;
+}
+ul#nav {
+	letter-spacing: 1px;
+	line-height: 50px;
+	font-size: 15px;
+}
+ul#nav li{
+	float: left;
+	display: inline;
+	margin: 0px 20px 0px 0px;
+}
+ul#nav li.current_page_item a{
+	border-bottom: 2px solid #6d8ca4;
+}
+ul#nav li a{
+	color: #fff;
+}
