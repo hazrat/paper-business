@@ -12,7 +12,12 @@ Tags: Paper business
 @import "css/typography.css";
 @import "css/layout.css";
 
+
+
 /******General Styles******/
+
+
+
 body{
 	background:transparent url('images/background.jpg') repeat scroll;
 	color:#fff;
@@ -25,14 +30,20 @@ body{
 a{
 	text-decoration: none;
 }
+
+
 /******Header Styles******/
+
+
+
 #header{
 	margin: 40px 0px 20px 0px;
+	padding-bottom: 70px;
 }
 h1#logo{
 	letter-spacing: 1px;
 	float: left;
-	margin: 0px 80px 0px 0px;
+	margin: 0px 88px 0px 0px;
 	font-size: 35px;
 	text-transform: lowercase;
 	font-weight: normal;
@@ -51,11 +62,86 @@ ul#nav {
 ul#nav li{
 	float: left;
 	display: inline;
-	margin: 0px 20px 0px 0px;
+	margin: 0px 25px 0px 0px;
 }
 ul#nav li.current_page_item a{
 	border-bottom: 2px solid #6d8ca4;
 }
 ul#nav li a{
 	color: #fff;
+}
+
+
+
+
+/******Featured Styles******/
+
+
+#featured_section{
+	background: url('images/main_header.jpg') no-repeat scroll;
+	width: 824px;
+	height: 301px;
+	margin: 0px 0px 0px 0px;
+}
+h3#tagline{
+	font-size: 31px;
+	font-weight: normal;
+	line-height: 45px;
+	margin: 50px 0px 100px 0px;
+	position: relative;
+}
+h3#tagline span{
+	color: #65bdff;
+}
+
+
+/***********Front columns*********/
+
+
+.front_columns{
+	width: 245px;
+	float: left;
+	font-size: 13px;
+	margin: 0px 21px 0px 0px;
+}
+.front_columns h2 {
+	font-size: 28px;
+	margin: 10px 0px 20px 0px;
+	font-weight: normal;
+}
+.front_columns p{
+	line-height: 23px;
+}
+.front_columns a{
+	color: #55bdff;
+}
+
+/***********Footer Styles*********/
+
+#footer{
+	background: url('images/footer_bg.jpg') no-repeat scroll;
+	width: 801px;
+	height: 104px;
+	margin: 0px;
+}
+#footer ul{
+	padding: 60px 0px 0px 20px;
+}
+
+#footer ul li{
+	float: left;
+	display: inline;
+	margin-right: 8px;
+}
+#footer ul li.current_page_item a{
+	color: #6c6c6c;
+}
+#footer ul li a{
+	color: #9f9f9f;
+}
+#footer p {
+	margin-right: 30px;
+}
+#footer p strong{
+	color: #6c6c6c;
 }

@@ -19,7 +19,6 @@
 	 * twentyten_filter_wp_title() in functions.php.
 	 */
 	wp_title( '|', true, 'right' );
-
 	?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
@@ -30,22 +29,19 @@
 	 */
 	if ( is_singular() && get_option( 'thread_comments' ) )
 		wp_enqueue_script( 'comment-reply' );
-
-	/* Always have wp_head() just before the closing </head>
+/* Always have wp_head() just before the closing </head>
 	 * tag of your theme, or you will break many plugins, which
 	 * generally use this hook to add elements to <head> such
 	 * as styles, scripts, and meta tags.
 	 */
-	wp_head();
-	?>
+wp_head();
+?>
 </head>
-
 <body <?php body_class(); ?>>
 	<div id='wrap'>
 		<div id='header'>
-			<h1 id='logo'><a href="<?php echo get_option('home'); ?>/"> <span>Paper</span> Business</a><h1>
-			</h1>
+			<h1 id='logo'><a href="<?php echo get_option('home'); ?>/"> <span>Paper</span> Business</a></h1>
 			<ul id='nav'>
-				<?php wp_list_pages('title_li'); ?>
+				<?php wp_list_pages('title_li='); ?>
 			</ul>
 		</div>
