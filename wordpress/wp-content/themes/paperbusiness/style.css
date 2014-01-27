@@ -271,11 +271,83 @@ ul.pagination li a{
 	line-height: 21px;
 	position: relative;
 }
-
-
-
-
-
+.page_tagline h2 {
+	color: #224e70;
+	font-size: 27px;
+	padding: 50px 0px 20px  50px;
+}
+.page_tagline p {
+	padding: 0px 0px 0px 50px;
+	width: 700px;
+}
+.page_tagline img{
+	position: absolute;
+	top: -70px;
+	right: -55px;
+}
+#page_content{
+	width: 485px;
+	font-size: 12px;
+	line-height: 23px;
+}
+#page_content a{
+	color: #65bdff;
+}
+#page_content p{
+	margin: 20px; 0px;
+}
+#page_content img{
+	margin-left: 0px 15px 5px 0px;
+}
+/******Side bar styles******/
+#page_sidebar{
+	float: right;
+	width: 250px;
+	color: #626262;
+}
+.sidebar_top{
+		background: transparent url('style/images/link_bar.jpg') no-repeat scroll center top;
+		width: 250px;
+		height: 76px;
+}
+.sidebar_middle{
+	background: transparent url('style/images/right-bar.png') repeat-y scroll center;
+}
+.sidebar_bottom{
+		background: transparent url('style/images/link_bar.jpg') no-repeat scroll center bottom;
+}
+.sidebar_top h2{
+	color: #224e70;
+	font-size: 27px;
+	padding: 20px 0px 0px 20px;
+}
+.sidebar_middle ul{
+	margin: -10px 0px 0px 0px;
+	font-size: 15px;
+}
+.sidebar_middle ul li{
+	background: transparent url("style/images/light_arrow.jpg")scroll 12px 0px;
+}
+.sidebar_middle ul li a{
+	color: #626262;
+	display: block;
+	padding-left: 30px;
+	margin-right: 10px;
+	width: 200px;
+}
+.sidebar_middle ul li a:hover{
+	font-weight: bold;
+	background: transparent url('style/images/dark_arow.jpg')no-repeat scroll 0px 0px;
+}
+.testimonial{
+	font-size: 17px;
+	font-family: georgia, serif;
+	font-style: italic;
+	padding: 0px 25px;
+}
+.testimonial p{
+	padding-top: 10px;
+}
 
 
 
