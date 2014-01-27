@@ -9,8 +9,8 @@ Template name: Front Page
   <div id='front_content'>
    <?php while (have_posts()) : the_post();?>
    <h3 id="tagline">
-    <img src="paper_plane.jpg" width='202' height='179' alt="" >
     <p><?php bloginfo('description'); ?> </p>
+     <img src="wp-content/themes/paperbusiness/style/images/paper.png" width='202' height='179' alt="" >
   </h3>
   <?php the_content(); ?>
 <?php endwhile; ?>
@@ -20,10 +20,22 @@ $recentBlog->query('showposts=1');
 if ($recentBlog->have_posts()) : while($recentBlog->have_posts()) : $recentBlog->the_post();
 ?>
 <div class='front_columns'>
-<h2><?php the_title(); ?></h2>
-<p><?php the_content_rss('&hellip;', 0, '', 50, 0); ?></p>
-<a href="<?php the_permalink('Find Out More&hellip;'); ?>">Read More&hellip;</a>
+  <h2><?php the_title(); ?></h2>
+  <p><?php the_content_rss('&hellip;', 0, '', 35, 0); ?></p>
+  <a href="<?php the_permalink('Find Out More&hellip;'); ?>">Read More&hellip;</a>
 </div>
+</div>
+<br class='dirtyLittleTrick' />
+<br class='dirtyLittleTrick' />
+<br class='dirtyLittleTrick' />
+<br class='dirtyLittleTrick' />
+<br class='dirtyLittleTrick' />
+<br class='dirtyLittleTrick' />
+<br class='dirtyLittleTrick' />
+<br class='dirtyLittleTrick' />
+<br class='dirtyLittleTrick' />
+
+
 <?php endwhile ?>
 <?php else : ?>
   <h2>Temporary Filler Box</h2>
@@ -33,5 +45,5 @@ if ($recentBlog->have_posts()) : while($recentBlog->have_posts()) : $recentBlog-
 <?php else: ?>
   <h2>Whoops we could not find what you were looking for.</h2>
 <?php endif; ?>
-</div>
+
 <?php get_footer(); ?>

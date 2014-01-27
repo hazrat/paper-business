@@ -6,7 +6,7 @@
 		<p>Copyright 2008-<?php echo date('y');?> <strong><?php bloginfo('name'); ?></strong> All rights reserved.</p>
 	</div>
 </div>
-
+<?php wp_footer(); ?>
 </div> <!---end of wrapper-->
 </body>
 </html>

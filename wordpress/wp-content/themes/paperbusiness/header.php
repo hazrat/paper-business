@@ -22,6 +22,9 @@
 	?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script type="text/javascript" src="wp-content/themes/paperbusiness/style/js/loopedslider.js"></script>
+	<script type="text/javascript" src="wp-content/themes/paperbusiness/style/js/function.js"></script>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<?php
 	/* We add some JavaScript to pages with the comment form
